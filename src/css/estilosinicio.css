@@ -1,0 +1,229 @@
+
+body{
+    font-family: 'mkda', Courier, monospace;
+    background-image: url("../imagens/fundoinicio.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: var(--cor-secundaria);
+  
+    
+}
+
+
+
+
+
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+
+.cabecalho{
+    z-index: 1;
+    display: flex;    
+    justify-content: center;
+}
+
+
+.cabecalho .titulo{
+    color: var(--cor-titulo-inicio);
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 102px;
+    -webkit-text-stroke: 2px var(--cor-secundaria);
+    font-family: 'mk4';
+    border: 80px;
+    margin: 80px;
+}
+
+
+.meio{
+
+    margin: 20px 0px 0px 500px;
+    border: 200px;
+    width: 250px;
+    padding: 20px;
+    background-color: #cc0707; 
+    
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    user-select: none;
+    transition: background 1s;
+    font-family: 'mk1';
+    font-size: 20px;
+
+}
+
+.meio:hover{
+    font-family: 'mk1';
+    background:  #ff0000;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+
+.sobre{
+
+    margin: 20px 100px 0px 500px;
+    border: 200px;
+    padding: 20px;
+    width: 250px;
+    background-color: #cc0707; 
+   
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    user-select: none;
+    transition: background 1s;
+    font-family: 'mk1';
+    font-size: 20px;
+    
+}
+
+.sobre:hover{
+    font-family: 'mk1';
+    background:  #ff0000;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+.selecao{
+    margin: 20px 0px 0px 500px;
+    border: 200px;
+    padding: 20px;
+    width: 250px;
+    background-color: #cc0707; 
+   
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    user-select: none;
+    transition: background 1s;
+    font-family: 'mk1';
+    font-size: 20px;
+    
+}
+
+.selecao:hover{
+    font-family: 'mk1';
+    background:  #ff0000;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+
+
+
+.personagens{
+
+    margin: 20px 0px 0px 500px;
+    border: 200px;
+    width: 250px;
+    padding: 20px;
+    background-color: #cc0707; 
+   
+    
+    
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    user-select: none;
+    transition: background 1s;
+    font-family: 'mk1';
+    font-size: 20px;
+
+
+
+
+}
+
+.personagens:hover{
+
+    background: #ff0000;
+    font-family: 'mk1';
+    transform: scale(1.1);
+    transition: all 0.5s;
+
+
+
+}
+
+
+.franquia{
+
+    margin: 20px 0px 0px 500px;
+    border: 200px;
+    width: 250px;
+    padding: 20px;
+    background-color: #cc0707; 
+   
+    
+    
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    user-select: none;
+    transition: background 1s;
+    font-family: 'mk1';
+    font-size: 20px;
+
+
+
+
+}
+
+.franquia:hover{
+
+    background: #ff0000;
+    font-family: 'mk1';
+    transform: scale(1.1);
+    transition: all 0.5s;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+button{
+
+    position: relative; /* Para que a imagem não saia fora do link */
+}
+
+button span {
+    display: none; /* Aqui você define que todo SPAN que estiver dentro de um A estará invisível */
+}
+
+button:hover span {
+    display: block; /* Tranforma o SPAN em um elemento do tipo bloco */
+    position: absolute; /* Para você poder posicionar a vontade, sem quebrar o layour em volta */
+    top: 0px; /* Para ficar na mesma altura do link */
+    left: 100%; /* Empurra a imagem para fora do link, ficando a lado do mesmo */
+    /* Estilo extra, lembrando que você pode colocar qualquer estilo nesse elemento */
+}
+
+

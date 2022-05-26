@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'ssf4';
+  /*Woff funciona nos nvegadores Google Chrome, Firefox, Microsoft Edge, Opera e Safari são compatíveis com o formato WOFF, mas pode ser necessário atualizar seu navegador para a versão mais recente. */
+  src: url('../fontes/SSF4_ABUKET.woff'); 
+}
+
+@font-face {
+  font-family: 'command';
+  /*OTF é suportado pela maioria dos navegadores mais modernos, menos o internet explorer */
+  src: url('../fontes/PILOT_COMMAND.otf');
+}
+
+@font-face {
+  font-family: 'mktitle';
+  src: url(../fontes/mktitle.ttf);
+}
+
+@font-face {
+  font-family: 'tape';
+  src: url(../fontes/Tapestry-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'gasma';
+  src: url(../fontes/GASMASK_.TTF);
+}
+
+@font-face {
+  font-family: 'gai';
+  src: url(../fontes/Gaiking.otf);
+}
+
+
+@font-face {
+  font-family: 'gamix';
+  src: url(../fontes/Gamix.ttf);
+}
+
+
+@font-face {
+  font-family: 'rubik';
+  src: url(../fontes/RubikGlitch-Regular.ttf);
+}
+
+
+@font-face {
+  font-family: 'sunmora';
+  src: url(../fontes/Sunmora-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'mk1';
+  src: url(../fontes/mk1.ttf);
+}
+
+@font-face {
+  font-family: 'mk2';
+  src: url(../fontes/mk2.ttf);
+}
+
+@font-face {
+  font-family: 'mk4';
+  src: url(../fontes/MK4.TTF);
+}
+
+
+@font-face {
+  font-family: 'mkda';
+  src: url(../fontes/mkda.ttf);
+}
+
+@font-face {
+  font-family: 'mkmyth';
+  src: url(../fontes/mkmyth.ttf);
+}
+
+@font-face {
+  font-family: 'mktitulo';
+  src: url(../fontes/mortalkombat1.ttf);
+}
+
+@font-face {
+  font-family: 'mkx';
+  src: url(../fontes/MKX\ Title.ttf);
+}
+
+@font-face {
+  font-family: 'fave' ;
+  src: url(../fontes/FORT-AVENUE.ttf);
+}
+
+@font-face {
+  font-family: 'loud' ;
+  src: url(../fontes/LoudBeats.ttf);
+}
+
+@font-face {
+  font-family: 'bat';
+  src: url(../fontes/batmfa__.ttf);
+}
+
+@font-face {
+  font-family: 'batfo';
+  src: url(../fontes/batmfo__.ttf);
+}

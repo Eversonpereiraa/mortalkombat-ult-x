@@ -1,0 +1,29 @@
+:root {
+    --cor-vermelha-principal: #D60223;
+    --cor-vermelha-media: #f89284;
+    --cor-vermelha-fraca: #ffbebe;
+
+    --cor-marrom-fraco: #ebd5d2;
+
+    --cor-azul-principal: #0271F7;
+    --cor-azul-media: #d3ffff;
+    --cor-azul-fraca: #8fbff8;
+
+    --cor-roxa-fraca: #c2c2f1;
+
+    --cor-titulo-fraco: #faefd8;
+    --cor-titulo-forte: #f32718;
+    --cor-titulo-inicio: #ffa500;
+
+    --cor-padrao: #ffffff;
+    --cor-secundaria: #000000;
+
+
+
+
+
+    --cor-verde-fraca: #00ff00;
+    --cor-verde-principal: #1ec009;
+    --cor-verde-medio: #89f57a;
+
+}

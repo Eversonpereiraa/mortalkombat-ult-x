@@ -1,0 +1,93 @@
+
+body{
+  font-family: 'mkda', Courier, monospace;
+  background: var(--cor-secundaria);
+ 
+}
+
+
+body{
+  font-family: 'mkda', Courier, monospace;
+  background-image: url("../imagens/fundoinicio.webp");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: var(--cor-secundaria);
+  
+}
+
+
+
+.tabela1{
+
+  font-family: 'mk2';
+  text-align: center;
+  color: aliceblue;
+  background-color: black;
+  font-size: 20px;
+  padding: 0px;
+  position: absolute;
+  margin: 150px 300px 200px 250px;
+  opacity: 1;
+  height:100px;
+
+}
+
+.tabela1:hover{
+  background-color: black;
+  
+}
+
+
+.tabela1 .imagem{
+
+width: 200px 0px 0px 0px;
+height: 50px;
+position: center;
+text-align: center;
+
+}
+
+
+
+.redes{
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  color: beige;
+
+  
+}
+.redes:hover{
+
+  color:  #FFD700;
+}
+
+.meio{
+
+  margin: 0px 0px 0px 1150px;
+  border: 0px;
+  width: 100px;
+  padding: 10px;
+  background-color: #cc0707; 
+  
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  user-select: none;
+  transition: background 1s;
+  font-family: 'mk1';
+  font-size: 20px;
+  position: relative;
+  transition: background 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
